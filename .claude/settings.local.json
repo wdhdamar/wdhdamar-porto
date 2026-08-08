@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python \"C:/Users/widhi damar anandito/.claude/skills/ui-ux-pro-max/scripts/search.py\" \"professional personal portfolio recruiters minimal premium clean\" --design-system -p \"Widhi Damar Portfolio\")",
+      "Bash(npm --version)",
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --eslint --use-npm --no-turbopack)"
+    ]
+  }
+}
