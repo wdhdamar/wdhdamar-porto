@@ -3,7 +3,34 @@
     "allow": [
       "Bash(python \"C:/Users/widhi damar anandito/.claude/skills/ui-ux-pro-max/scripts/search.py\" \"professional personal portfolio recruiters minimal premium clean\" --design-system -p \"Widhi Damar Portfolio\")",
       "Bash(npm --version)",
-      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --eslint --use-npm --no-turbopack)"
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --eslint --use-npm --no-turbopack)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(gh api *)",
+      "Bash(curl -s \"https://api.github.com/users/wdhdamar/repos?per_page=100&sort=pushed\")",
+      "WebFetch(domain:api.github.com)",
+      "PowerShell($r = Invoke-RestMethod -Uri \"https://api.github.com/users/wdhdamar/repos?per_page=100&sort=pushed\" -Headers @{ \"User-Agent\" = \"claude\" }; $r | Select-Object name, @{n='desc';e={$_.description}}, language, fork, @{n='pushed';e={$_.pushed_at}}, html_url | Format-List)",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"https://api.github.com/users/wdhdamar\" -Headers @{ \"User-Agent\" = \"claude\" } -TimeoutSec 25; \"STATUS:\" + $r.StatusCode; $r.Content.Substring\\(0,300\\) } catch { \"ERROR: \" + $_.Exception.Message })",
+      "Bash(curl -sS -m 30 -H \"User-Agent: claude\" \"https://api.github.com/users/wdhdamar/repos?per_page=100&sort=pushed\" -o /tmp/repos.json)",
+      "Bash(echo \"EXIT:$?\")",
+      "Read(//tmp/**)",
+      "Bash(node -e \"const r=require\\('./repos.json'\\); r.sort\\(\\(a,b\\)=>new Date\\(b.pushed_at\\)-new Date\\(a.pushed_at\\)\\); for\\(const x of r\\){console.log\\('• '+x.name+' | fork:'+x.fork+' | '+\\(x.language||'-'\\)+' | '+x.pushed_at.slice\\(0,10\\)+' | '+\\(x.description||'\\(no description\\)'\\)\\)}\")",
+      "Bash(curl -sS -m 30 -H 'User-Agent: claude' https://api.github.com/repos/wdhdamar/__TRACKED_VAR__ -o meta.json)",
+      "Bash(node -e \"const m=require\\('./meta.json'\\);console.log\\('homepage:',m.homepage||'-'\\);console.log\\('topics:',\\(m.topics||[]\\).join\\(', '\\)||'-'\\);console.log\\('created:',m.created_at.slice\\(0,10\\),'pushed:',m.pushed_at.slice\\(0,10\\)\\);\")",
+      "Bash(curl -sS -m 30 -H 'User-Agent: claude' https://api.github.com/repos/wdhdamar/__TRACKED_VAR__/languages)",
+      "Bash(curl -sS -m 30 -H 'User-Agent: claude' -H 'Accept: application/vnd.github.raw' https://api.github.com/repos/wdhdamar/__TRACKED_VAR__/readme)",
+      "Bash(curl -sS -m 30 -H \"User-Agent: claude\" \"https://api.github.com/repos/wdhdamar/SPK---Smart-Method-App/git/trees/main?recursive=1\" -o spk.json)",
+      "Bash(node -e \"try{const t=require\\('./spk.json'\\);console.log\\(\\(t.tree||[]\\).map\\(x=>x.path\\).filter\\(p=>!p.includes\\('node_modules'\\)&&!p.startsWith\\('.next'\\)&&!p.includes\\('/.'\\)\\).join\\('\\\\n'\\)\\)}catch\\(e\\){console.log\\('branch main failed'\\)}\")",
+      "Bash(curl -sS -m 30 -H 'User-Agent: claude' https://raw.githubusercontent.com/wdhdamar/SPK---Smart-Method-App/main/__TRACKED_VAR__)",
+      "Bash(curl -sS -m 40 -H \"User-Agent: claude\" \"https://api.github.com/repos/wdhdamar/GIS-Webapp-Pondok-Aren/git/trees/main?recursive=1\" -o gis.json)",
+      "Bash(node -e \" try{const t=require\\('./gis.json'\\); const paths=\\(t.tree||[]\\).map\\(x=>x.path\\); const app=paths.filter\\(p=>/^application\\\\/\\(controllers|models|views|config\\)\\\\//i.test\\(p\\)&&!p.endsWith\\('/'\\)\\); console.log\\('--- controllers/models/views/config ---'\\); console.log\\(app.slice\\(0,60\\).join\\('\\\\n'\\)\\); console.log\\('--- SQL files ---'\\); console.log\\(paths.filter\\(p=>/\\\\.sql$/i.test\\(p\\)\\).join\\('\\\\n'\\)||'\\(none\\)'\\); }catch\\(e\\){console.log\\('ERR',e.message\\)} \")",
+      "Bash(curl -sS -m 30 -H 'User-Agent: claude' https://raw.githubusercontent.com/wdhdamar/GIS-Webapp-Pondok-Aren/main/__TRACKED_VAR__)",
+      "PowerShell(Get-NetTCPConnection -LocalPort 3000 -State Listen -ErrorAction SilentlyContinue | Select-Object -ExpandProperty OwningProcess -Unique | ForEach-Object { Get-Process -Id $_ -ErrorAction SilentlyContinue | Select-Object Id, ProcessName, Path })",
+      "PowerShell($lines = netstat -ano | Select-String \":3000\\\\s\"; $lines; \"----\"; $pids = $lines | ForEach-Object { \\($_ -split '\\\\s+'\\)[-1] } | Sort-Object -Unique; foreach \\($p in $pids\\) { Get-Process -Id $p -ErrorAction SilentlyContinue | Select-Object Id, ProcessName })",
+      "PowerShell(\\(Get-CimInstance Win32_Process -Filter \"ProcessId=13528\"\\).CommandLine)",
+      "PowerShell(Rename-Item \"C:\\\\Users\\\\widhi damar anandito\\\\widhidamar-porto\\\\public\\\\projects\\\\damar-overview.png\" \"damar-portrait.png\")"
     ]
   }
 }
