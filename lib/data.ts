@@ -24,9 +24,9 @@ export const navLinks = [
 ];
 
 export const stats = [
+  { value: "3.67", label: "GPA" },
   { value: "5", label: "Projects built" },
-  { value: "30+", label: "Team members led" },
-  { value: "500+", label: "Webinar attendees reached" },
+  { value: "30+", label: "People led" },
 ];
 
 export const highlights = [
@@ -122,10 +122,10 @@ export const projects: Project[] = [
     ],
     outcomes: [
       { value: "AI-assisted", label: "Diagnosis from plain text" },
-      { value: "Role-based", label: "Admin / technician / staff" },
+      { value: "Role-based", label: "Admin & Customer" },
       { value: "End-to-end", label: "Intake to handover" },
     ],
-    gallery: [{ caption: "Service dashboard", aspect: "wide" }],
+    gallery: [{ caption: "Service dashboard", aspect: "wide", src: "/projects/laptop-service.png" }],
   },
   {
     slug: "kms-karate-coaches",
@@ -153,9 +153,9 @@ export const projects: Project[] = [
     outcomes: [
       { value: "Thesis", label: "Undergraduate final project" },
       { value: "Centralised", label: "Shared knowledge base" },
-      { value: "Role-based", label: "Coaches & members" },
+      { value: "Role-based", label: "Admin, Validator & Coaches" },
     ],
-    gallery: [{ caption: "Knowledge repository", aspect: "wide" }],
+    gallery: [{ caption: "Knowledge repository", aspect: "wide", src: "/projects/dasbor-kms-karate.png" }],
   },
   {
     slug: "data-analytics-dashboard",
@@ -217,7 +217,7 @@ export const projects: Project[] = [
       { value: "Real-time", label: "Live ranking" },
       { value: "Benefit/Cost", label: "Criteria types" },
     ],
-    gallery: [{ caption: "Criteria & ranking view", aspect: "wide" }],
+    gallery: [{ caption: "Criteria & ranking view", aspect: "wide", src: "/projects/hasil-ranking.png" }],
   },
   {
     slug: "gis-pondok-aren",
@@ -247,10 +247,10 @@ export const projects: Project[] = [
     ],
     outcomes: [
       { value: "4+", label: "Spatial layers" },
-      { value: "Multi-basemap", label: "Satellite / street / OSM" },
+      { value: "Multi-basemap", label: "Satellite/Street" },
       { value: "Search + locate", label: "Map controls" },
     ],
-    gallery: [{ caption: "Interactive district map", aspect: "wide" }],
+    gallery: [{ caption: "Interactive district map", aspect: "wide", src: "/projects/web-gis-app.png" }],
   },
 ];
 
