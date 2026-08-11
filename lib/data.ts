@@ -135,14 +135,14 @@ export const projects: Project[] = [
     summary:
       "A Knowledge Management System built as my final-year thesis for the Goju-Ryu Karate-Do Association of Banten. It gives coaches one place to document, organise, and share training knowledge — techniques, curricula, and experience — so expertise is retained and passed on instead of living only in individual coaches' heads.",
     tags: ["Laravel", "PHP", "MySQL", "Bootstrap"],
-    year: "2025",
+    year: "2026",
     category: "Web Application",
     type: "code",
     links: [
       { type: "repo", href: "https://github.com/wdhdamar/KMS-GojuAssBanten" },
     ],
     role: "Developer & Researcher (thesis)",
-    timeline: "Final-year thesis",
+    timeline: "Dec 2025 – Jul 2026",
     problem:
       "Coaching knowledge in the association was almost entirely tacit — held by senior coaches and shared informally. When a coach moved on, their knowledge left with them, and newer coaches had no central, reliable reference to learn from. The thesis set out to make that knowledge explicit, structured, and reusable.",
     approach: [
@@ -169,7 +169,7 @@ export const projects: Project[] = [
     category: "Data & Analytics",
     type: "data",
     role: "Data Analyst (self-initiated project)",
-    timeline: "1 day",
+    timeline: "Aug 2026",
     client: "	Personal project (synthetic dataset)",
     problem:
       "Retail teams often rely on static monthly export sheets to track performance — making it slow to compare category trends, monitor whether each sales rep is hitting target, or catch spikes in cancelled orders. This project simulates that reporting gap using a synthetic dataset of 2,000 transactions spanning 20 cities and 15 sales reps.",
@@ -197,14 +197,14 @@ export const projects: Project[] = [
     summary:
       "A web-based Decision Support System that implements the SMART (Simple Multi-Attribute Rating Technique) method. Users define criteria with benefit/cost types and weights, enter alternatives, and get a normalised, ranked recommendation that updates live as inputs change.",
     tags: ["Next.js", "TypeScript", "React", "Tailwind CSS"],
-    year: "2026",
+    year: "2025",
     category: "Web Application",
     type: "code",
     links: [
       { type: "repo", href: "https://github.com/wdhdamar/SPK---Smart-Method-App" },
     ],
     role: "Developer",
-    timeline: "Personal project",
+    timeline: "May 2025",
     problem:
       "Choosing between options against several competing criteria is hard to do by hand — the weighting and normalisation math is fiddly and easy to get wrong. The goal was an app that makes the SMART decision method approachable: enter the criteria and options, and let the tool handle the calculation transparently.",
     approach: [
@@ -227,7 +227,7 @@ export const projects: Project[] = [
     summary:
       "A Web-based Geographic Information System for the Pondok Aren district (South Tangerang), built with CodeIgniter and Leaflet.js. It overlays administrative boundaries, roads, rivers, and points of interest on switchable basemaps, with tools to search, locate, and toggle layers.",
     tags: ["CodeIgniter", "Leaflet.js", "PHP", "MySQL", "AdminLTE"],
-    year: "2026",
+    year: "2025",
     category: "Web GIS",
     type: "code",
     links: [
@@ -237,7 +237,7 @@ export const projects: Project[] = [
       },
     ],
     role: "Developer",
-    timeline: "Coursework project",
+    timeline: "Dec 2025",
     problem:
       "Spatial information about a district — where the boundaries, roads, rivers, and key points sit — is usually scattered across static maps and documents. The aim was a single interactive map that brings those layers together and lets anyone explore them in the browser.",
     approach: [
