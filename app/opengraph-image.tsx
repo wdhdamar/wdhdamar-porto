@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const alt =
-  "Widhi Damar Anandito — Information Systems Graduate. Web development, data, and the systems that tie them together.";
+  "Widhi Damar Anandito — Information Systems. Web development, data, and the systems that tie them together.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -69,8 +69,8 @@ export default function OpengraphImage() {
               maxWidth: 900,
             }}
           >
-            Information Systems Graduate — web development, data, and the systems
-            in between.
+            Information Systems — web development, data, and the systems in
+            between.
           </div>
           <div
             style={{

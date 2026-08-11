@@ -44,7 +44,7 @@ export function About() {
             <Reveal delay={0.12}>
               <div className="mt-6 space-y-4 text-base leading-relaxed text-muted text-pretty">
                 <p>
-                  I&apos;m an Information Systems graduate from UIN Syarif
+                  I&apos;m an Information Systems student at UIN Syarif
                   Hidayatullah Jakarta, happiest in the full arc of building:
                   understanding the real need, designing the system behind it,
                   then shipping it. That foundation keeps me versatile — moving

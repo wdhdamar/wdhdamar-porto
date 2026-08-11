@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s — Widhi Damar Anandito",
   },
   description:
-    "Portfolio of Widhi Damar Anandito — Information Systems graduate turning real problems into working solutions across web development, data, and systems.",
+    "Portfolio of Widhi Damar Anandito — turning real problems into working solutions across web development, data, and the systems that tie them together.",
   keywords: [
     "Widhi Damar Anandito",
     "Portfolio",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Widhi Damar Anandito — Portfolio",
     description:
-      "Information Systems graduate turning real problems into working solutions across web development, data, and systems.",
+      "Turning real problems into working solutions across web development, data, and the systems that tie them together.",
     type: "website",
   },
 };

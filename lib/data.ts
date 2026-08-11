@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Widhi Damar Anandito",
   shortName: "Widhi Damar Anandito",
   initials: "WD",
-  role: "Information Systems Graduate",
+  role: "Information Systems · Web & Data",
   tagline:
     "I turn real problems into working solutions across web development, data, and the systems that tie them together.",
   location: "Indonesia",
