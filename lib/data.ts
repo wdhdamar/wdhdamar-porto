@@ -101,7 +101,7 @@ export const projects: Project[] = [
     summary:
       "A web-based service management system for a laptop repair business, built with Laravel. It digitises the entire repair lifecycle — intake, diagnosis, repair tracking, and handover — and layers in a Groq-powered LLM that reads a customer's plain-language complaint and suggests a likely diagnosis and next steps.",
     tags: ["Laravel", "PHP", "MySQL", "Groq LLM", "REST API", "Blade"],
-    year: "2025",
+    year: "2026",
     category: "Web Application",
     type: "code",
     featured: true,
@@ -112,7 +112,7 @@ export const projects: Project[] = [
       },
     ],
     role: "Full-stack Developer",
-    timeline: "Coursework project",
+    timeline: "Jun 2026",
     problem:
       "Small repair shops usually track service tickets on paper or in a spreadsheet — so nothing is searchable, status updates get lost between the front desk and the technician, and every incoming complaint has to be manually interpreted before work can start. The goal was a single system that owns the whole workflow and takes some of the diagnostic guesswork off the technician's plate.",
     approach: [
