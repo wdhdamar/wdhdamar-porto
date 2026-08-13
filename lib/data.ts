@@ -223,7 +223,7 @@ export const projects: Project[] = [
       { value: "SQL-only", label: "Window functions & CTEs" },
     ],
     gallery: [
-      { caption: "Sales & customer analysis dashboard", aspect: "wide" },
+      { caption: "Sales & customer analysis dashboard", aspect: "wide", src: "/projects/ecommerce_analysis_dashboard.jpg" },
     ],
   },
   {
