@@ -211,9 +211,9 @@ export const projects: Project[] = [
     timeline: "Aug 2026",
     client: "Personal project (synthetic dataset)",
     problem:
-      "E-commerce teams sit on thousands of raw transaction rows but struggle to turn them into answers — which products actually drive revenue, who the repeat customers are, how sales trend month to month, and where cancellations pile up. This project uses a synthetic two-year Indonesian dataset (1,500 orders, ~2,700 line items across 200 customers and 46 products) to answer those questions with SQL alone.",
+      "E-commerce businesses generate thousands of transaction rows, but raw data alone doesn't answer the questions that matter — which products actually drive revenue, who the repeat customers are, how sales trend month to month, and where cancellations concentrate. Turning that data into decisions requires structured analysis, not just storage. This project simulates that process end-to-end: a synthetic two-year Indonesian e-commerce dataset (1,500 orders, ~2,700 line items across 200 customers and 46 products), analyzed using SQL alone.",
     approach: [
-      "Designed a normalised four-table schema in SQLite — customers, products, orders, and order_items — and loaded ~2,700 line items across 1,500 orders.",
+      "Modeled a normalised four-table schema (customers, products, orders, order_items) and worked with ~2,700 line items across 1,500 orders after cleaning duplicates, nulls, and inconsistent formatting.",
       "Wrote analytical queries for revenue and average order value, product and category rankings, customer segmentation and repeat-purchase detection, and geographic sales by city.",
       "Used window functions and CTEs to compute month-over-month revenue growth and rank products and customers, then visualised the results in a Google Data Studio dashboard.",
     ],
