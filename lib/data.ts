@@ -201,6 +201,10 @@ export const projects: Project[] = [
     category: "Data & Analytics",
     type: "data",
     links: [
+      {
+        type: "dashboard",
+        href: "https://datastudio.google.com/reporting/bb5db391-d676-41ce-bc70-d91cce028abf",
+      },
       { type: "repo", href: "https://github.com/wdhdamar/Ecommerce-SQL" },
     ],
     role: "Data Analyst (self-initiated project)",
