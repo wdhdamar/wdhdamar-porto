@@ -190,6 +190,39 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "ecommerce-sql-analysis",
+    title: "E-Commerce Sales & Customer Analysis (SQL)",
+    description:
+      "A pure-SQL analysis of two years of Indonesian e-commerce data — turning 1,500 orders into revenue, product, and customer insights.",
+    summary:
+      "A SQL-based data analysis project on Indonesian e-commerce transactions spanning Jan 2023–Dec 2024. Using SQLite, it models customers, products, orders, and order items, then answers real business questions — sales performance, product rankings, customer segmentation, monthly trends, and geographic distribution — using window functions and CTEs.",
+    tags: ["SQL", "SQLite", "Window Functions", "CTEs", "Data Studio"],
+    year: "2026",
+    category: "Data & Analytics",
+    type: "data",
+    links: [
+      { type: "repo", href: "https://github.com/wdhdamar/Ecommerce-SQL" },
+    ],
+    role: "Data Analyst (self-initiated project)",
+    timeline: "Aug 2026",
+    client: "Personal project (synthetic dataset)",
+    problem:
+      "E-commerce teams sit on thousands of raw transaction rows but struggle to turn them into answers — which products actually drive revenue, who the repeat customers are, how sales trend month to month, and where cancellations pile up. This project uses a synthetic two-year Indonesian dataset (1,500 orders, ~2,700 line items across 200 customers and 46 products) to answer those questions with SQL alone.",
+    approach: [
+      "Designed a normalised four-table schema in SQLite — customers, products, orders, and order_items — and loaded ~2,700 line items across 1,500 orders.",
+      "Wrote analytical queries for revenue and average order value, product and category rankings, customer segmentation and repeat-purchase detection, and geographic sales by city.",
+      "Used window functions and CTEs to compute month-over-month revenue growth and rank products and customers, then visualised the results in a Google Data Studio dashboard.",
+    ],
+    outcomes: [
+      { value: "Rp 6.0B", label: "Revenue analyzed" },
+      { value: "1,500", label: "Orders across 2 years" },
+      { value: "SQL-only", label: "Window functions & CTEs" },
+    ],
+    gallery: [
+      { caption: "Sales & customer analysis dashboard", aspect: "wide" },
+    ],
+  },
+  {
     slug: "spk-smart-method",
     title: "Decision Support System — SMART Method",
     description:
