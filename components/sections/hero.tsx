@@ -48,19 +48,9 @@ export function Hero() {
           animate="show"
           className="max-w-4xl"
         >
-          <motion.div variants={item}>
-            <span className="inline-flex items-center gap-2 rounded-full border border-border bg-surface px-3.5 py-1.5 text-xs font-medium text-muted">
-              <span className="relative flex h-2 w-2">
-                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-75" />
-                <span className="relative inline-flex h-2 w-2 rounded-full bg-accent" />
-              </span>
-              {siteConfig.availability}
-            </span>
-          </motion.div>
-
           <motion.h1
             variants={item}
-            className="mt-6 font-display text-4xl font-semibold leading-[1.05] tracking-tight text-balance sm:text-6xl md:text-7xl"
+            className="font-display text-4xl font-semibold leading-[1.05] tracking-tight text-balance sm:text-6xl md:text-7xl"
           >
             {siteConfig.name.split(" ").slice(0, 2).join(" ")}{" "}
             <span className="text-muted">

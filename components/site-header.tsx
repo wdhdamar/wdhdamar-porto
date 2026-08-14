@@ -129,7 +129,12 @@ export function SiteHeader() {
                 <a
                   key={link.href}
                   href={to(link.href)}
-                  onClick={() => setOpen(false)}
+                  onClick={() => {
+                    // Unlock body scroll synchronously so the browser can jump
+                    // to the anchor target on tap (state update is async).
+                    document.body.style.overflow = "";
+                    setOpen(false);
+                  }}
                   className="rounded-lg px-4 py-3 text-base font-medium text-muted transition-colors hover:bg-surface hover:text-foreground"
                 >
                   {link.label}
@@ -137,7 +142,10 @@ export function SiteHeader() {
               ))}
               <a
                 href={to("#contact")}
-                onClick={() => setOpen(false)}
+                onClick={() => {
+                  document.body.style.overflow = "";
+                  setOpen(false);
+                }}
                 className="mt-2 inline-flex items-center justify-center rounded-full bg-accent px-4 py-3 text-base font-semibold text-accent-foreground"
               >
                 Get in touch
