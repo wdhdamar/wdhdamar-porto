@@ -50,6 +50,30 @@ export function SiteHeader() {
     };
   }, [open]);
 
+  /**
+   * Closing the mobile menu unmounts the tapped link (AnimatePresence exit),
+   * which swallows the browser's native fragment-navigation scroll — the hash
+   * updates but the page never moves. So drive the scroll ourselves once the
+   * close has been committed.
+   */
+  function handleMobileNav(
+    e: React.MouseEvent<HTMLAnchorElement>,
+    href: string
+  ) {
+    setOpen(false);
+    // Links to another page (e.g. "/#about") keep native navigation.
+    if (!href.startsWith("#")) return;
+    const el = document.getElementById(href.slice(1));
+    if (!el) return;
+    e.preventDefault();
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+        history.replaceState(null, "", href);
+      });
+    });
+  }
+
   return (
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${
@@ -129,12 +153,7 @@ export function SiteHeader() {
                 <a
                   key={link.href}
                   href={to(link.href)}
-                  onClick={() => {
-                    // Unlock body scroll synchronously so the browser can jump
-                    // to the anchor target on tap (state update is async).
-                    document.body.style.overflow = "";
-                    setOpen(false);
-                  }}
+                  onClick={(e) => handleMobileNav(e, to(link.href))}
                   className="rounded-lg px-4 py-3 text-base font-medium text-muted transition-colors hover:bg-surface hover:text-foreground"
                 >
                   {link.label}
@@ -142,10 +161,7 @@ export function SiteHeader() {
               ))}
               <a
                 href={to("#contact")}
-                onClick={() => {
-                  document.body.style.overflow = "";
-                  setOpen(false);
-                }}
+                onClick={(e) => handleMobileNav(e, to("#contact"))}
                 className="mt-2 inline-flex items-center justify-center rounded-full bg-accent px-4 py-3 text-base font-semibold text-accent-foreground"
               >
                 Get in touch
