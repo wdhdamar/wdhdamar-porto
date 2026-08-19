@@ -174,9 +174,9 @@ export const projects: Project[] = [
     problem:
       "Retail teams often rely on static monthly export sheets to track performance — making it slow to compare category trends, monitor whether each sales rep is hitting target, or catch spikes in cancelled orders. This project simulates that reporting gap using a synthetic dataset of 2,000 transactions spanning 20 cities and 15 sales reps.",
     approach: [
-      "Structured 2,000 raw transaction rows into an Excel Table via Power Query, then imported it into Excel's Data Model to build PivotTables across every dimension.",
-      "Built 6 PivotTables and PivotCharts covering monthly revenue trend, sales rep performance, top-selling products, category revenue, payment method mix, and order status distribution.",
-      "Connected Slicers (category, sales rep, order status) and a Timeline across every chart, so any stakeholder can filter the full dashboard without touching a single formula.",
+      "Built an interactive Excel dashboard of 6 PivotTables and PivotCharts, all connected through slicers and a timeline.",
+      "Processed 2,000 retail transactions into a structured, readable, and analysis-ready view.",
+      "Surfaced monthly revenue trends, sales performance, and top-selling products in a single dashboard — visualising Rp 5.3 billion in total revenue.",
     ],
     outcomes: [
       { value: "Rp 5.3B", label: "Revenue analyzed" },
