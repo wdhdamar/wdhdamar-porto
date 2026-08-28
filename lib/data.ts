@@ -362,7 +362,7 @@ export const experience: ExperienceItem[] = [
   {
     role: "Event Crew",
     company: "Pandawa Kreasi Nusantara",
-    period: "Feb 2026",
+    period: "Feb & Aug 2026",
     location: "Freelance",
     description:
       "Supported on-site event operations, making sure equipment and logistics were ready and running smoothly throughout.",
