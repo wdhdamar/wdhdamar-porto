@@ -253,7 +253,7 @@ export const projects: Project[] = [
       { value: "End-to-end", label: "Excel · SQL · Python · BI" },
       { value: "Cause → effect", label: "Cancellations to sales dip" },
     ],
-    gallery: [{ caption: "Power BI sales dashboard", aspect: "wide" }],
+    gallery: [{ caption: "Power BI sales dashboard", aspect: "wide", src: "/projects/power-bi-dasbor.png" }],
   },
   {
     slug: "spk-smart-method",
