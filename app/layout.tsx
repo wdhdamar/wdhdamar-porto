@@ -22,21 +22,24 @@ export const metadata: Metadata = {
     template: "%s — Widhi Damar Anandito",
   },
   description:
-    "Portfolio of Widhi Damar Anandito — turning real problems into working solutions across web development, data, and the systems that tie them together.",
+    "Portfolio of Widhi Damar Anandito — a data analyst turning raw data into decisions with SQL, Python, and BI tools, backed by a full-stack systems background.",
   keywords: [
     "Widhi Damar Anandito",
     "Portfolio",
-    "Information Systems",
-    "Web Developer",
-    "Laravel Developer",
     "Data Analyst",
+    "Data Engineer",
+    "Data Analytics",
+    "SQL",
+    "Python",
+    "Power BI",
+    "Information Systems",
     "Full-stack Developer",
   ],
   authors: [{ name: "Widhi Damar Anandito" }],
   openGraph: {
     title: "Widhi Damar Anandito — Portfolio",
     description:
-      "Turning real problems into working solutions across web development, data, and the systems that tie them together.",
+      "A data analyst turning raw data into decisions with SQL, Python, and BI tools, backed by a full-stack systems background.",
     type: "website",
   },
 };

@@ -2,12 +2,12 @@ export const siteConfig = {
   name: "Widhi Damar Anandito",
   shortName: "Widhi Damar Anandito",
   initials: "WD",
-  role: "Information Systems · Web & Data",
+  role: "Data & Analytics",
   tagline:
-    "I turn real problems into working solutions across web development, data, and the systems that tie them together.",
+    "I turn raw data into decisions — cleaning, querying, and visualising it end to end with SQL, Python, and BI tools.",
   location: "Indonesia",
   email: "wdhdamar@gmail.com",
-  availability: "Open to new opportunities",
+  availability: "Open to data & analytics roles",
   socials: {
     github: "https://github.com/wdhdamar",
     linkedin: "https://www.linkedin.com/in/widhi-damar-anandito/",
@@ -26,14 +26,14 @@ export const navLinks = [
 
 export const stats = [
   { value: "3.67", label: "GPA" },
-  { value: "5", label: "Projects built" },
-  { value: "30+", label: "People led" },
+  { value: "14K+", label: "Rows analyzed" },
+  { value: "3", label: "Data dashboards" },
 ];
 
 export const highlights = [
-  "End-to-end builder — from database and API design to a clean, responsive UI.",
-  "Data-literate — turning raw numbers into decision-ready insight with SQL, spreadsheets, and BI tools.",
-  "Systems thinker — requirement analysis, UML, and testing to build the right thing, the right way.",
+  "Data analyst at heart — turning raw numbers into decision-ready insight with SQL, Python, spreadsheets, and BI tools.",
+  "End-to-end with data — cleaning, querying, modelling, and visualising, from a messy export to a clear dashboard.",
+  "Technically versatile — a full-stack builder background that makes me just as comfortable with databases, APIs, and systems analysis.",
   "Proven leader — coordinated 30+ person teams and national events, delivering on time under pressure.",
 ];
 
@@ -105,7 +105,6 @@ export const projects: Project[] = [
     year: "2026",
     category: "Web Application",
     type: "code",
-    featured: true,
     links: [
       {
         type: "repo",
@@ -201,6 +200,7 @@ export const projects: Project[] = [
     year: "2026",
     category: "Data & Analytics",
     type: "data",
+    featured: true,
     links: [
       {
         type: "dashboard",
@@ -474,29 +474,6 @@ export type SkillGroup = {
 
 export const skillGroups: SkillGroup[] = [
   {
-    category: "Languages & Frameworks",
-    skills: [
-      "PHP",
-      "Laravel",
-      "CodeIgniter",
-      "JavaScript",
-      "TypeScript",
-      "React",
-      "Next.js",
-      "Python",
-    ],
-  },
-  {
-    category: "Frontend & UI",
-    skills: [
-      "Tailwind CSS",
-      "Bootstrap",
-      "Blade",
-      "HTML & CSS",
-      "Responsive Design",
-    ],
-  },
-  {
     category: "Databases & Data",
     skills: [
       "SQL (Joins, Window Functions, CTE)",
@@ -514,6 +491,29 @@ export const skillGroups: SkillGroup[] = [
       "Excel (PivotTables & Power Query)",
       "matplotlib",
       "KPI Dashboards",
+    ],
+  },
+  {
+    category: "Languages & Frameworks",
+    skills: [
+      "Python",
+      "SQL",
+      "TypeScript",
+      "JavaScript",
+      "PHP",
+      "Laravel",
+      "React",
+      "Next.js",
+    ],
+  },
+  {
+    category: "Frontend & UI",
+    skills: [
+      "Tailwind CSS",
+      "Bootstrap",
+      "Blade",
+      "HTML & CSS",
+      "Responsive Design",
     ],
   },
   {
