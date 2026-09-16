@@ -341,18 +341,6 @@ export type ExperienceItem = {
 
 export const experience: ExperienceItem[] = [
   {
-    role: "Karate Extracurricular Coach",
-    company: "SDIT Asy-Syukriyyah Tangerang",
-    period: "Aug 2022 — Jun 2026",
-    location: "Part-time",
-    description:
-      "Designed and led the school's karate program, coaching 40+ students each year in technique, discipline, and competition readiness.",
-    achievements: [
-      "Designed each year's syllabus and training plan from scratch in Google Workspace (Docs & Sheets), tailored to grade levels 3–5.",
-      "Scouted and mentored standout students, producing 3+ competition medalists every year.",
-    ],
-  },
-  {
     role: "Editorial & Publishing Intern",
     company: "PPID UIN Syarif Hidayatullah Jakarta",
     period: "Apr 2025 — Aug 2025",
@@ -362,6 +350,18 @@ export const experience: ExperienceItem[] = [
     achievements: [
       "Contributed to content management that helped UIN Jakarta earn an “Informative” rating in the public information disclosure assessment.",
       "Benchmarked the site against other universities and refined its content layout with HTML, CSS, and Bootstrap for a cleaner user experience.",
+    ],
+  },
+  {
+    role: "Editorial & Publishing Intern",
+    company: "Public Information & PR Center, UIN Jakarta",
+    period: "Dec 2024 — Apr 2025",
+    location: "Internship",
+    description:
+      "Published the newsroom team's journalism, photography, and design work to the institution's website using HTML, CSS, and Bootstrap, keeping content timely and on-standard.",
+    achievements: [
+      "Rebuilt the site's photo galleries so event documentation displayed inline while scrolling instead of redirecting to Google Drive, making it far easier to browse.",
+      "Coordinated with the editorial team to keep publishing and layout updates on schedule.",
     ],
   },
   {
@@ -377,15 +377,15 @@ export const experience: ExperienceItem[] = [
     ],
   },
   {
-    role: "Editorial & Publishing Intern",
-    company: "Public Information & PR Center, UIN Jakarta",
-    period: "Dec 2024 — Apr 2025",
-    location: "Internship",
+    role: "Karate Extracurricular Coach",
+    company: "SDIT Asy-Syukriyyah Tangerang",
+    period: "Aug 2022 — Jun 2026",
+    location: "Part-time",
     description:
-      "Published the newsroom team's journalism, photography, and design work to the institution's website using HTML, CSS, and Bootstrap, keeping content timely and on-standard.",
+      "Designed and led the school's karate program, coaching 40+ students each year in technique, discipline, and competition readiness.",
     achievements: [
-      "Rebuilt the site's photo galleries so event documentation displayed inline while scrolling instead of redirecting to Google Drive, making it far easier to browse.",
-      "Coordinated with the editorial team to keep publishing and layout updates on schedule.",
+      "Designed each year's syllabus and training plan from scratch in Google Workspace (Docs & Sheets), tailored to grade levels 3–5.",
+      "Scouted and mentored standout students, producing 3+ competition medalists every year.",
     ],
   },
   {
