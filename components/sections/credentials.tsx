@@ -20,39 +20,41 @@ export function Credentials() {
         <div className="mt-14 grid gap-10 lg:grid-cols-2 lg:gap-x-12">
           {/* Left: Education + Certifications */}
           <div className="flex flex-col gap-10">
-            <Reveal>
-              <div className="rounded-2xl border border-border bg-surface p-6">
-                <div className="flex items-center gap-2.5">
-                  <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-background text-accent-text">
-                    <GraduationCap className="h-4 w-4" />
+            <div>
+              <Reveal className="flex items-center gap-2.5">
+                <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-surface text-accent-text">
+                  <GraduationCap className="h-4 w-4" />
+                </span>
+                <h3 className="font-display text-lg font-semibold tracking-tight">
+                  Education
+                </h3>
+              </Reveal>
+
+              <Reveal
+                delay={0.05}
+                className="mt-6 rounded-2xl border border-border bg-surface p-6"
+              >
+                <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+                  <h4 className="font-display text-lg font-semibold tracking-tight">
+                    {education.degree}
+                  </h4>
+                  <span className="text-sm font-medium text-muted">
+                    {education.period}
                   </span>
-                  <h3 className="font-display text-lg font-semibold tracking-tight">
-                    Education
-                  </h3>
                 </div>
-                <div className="mt-5">
-                  <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
-                    <h4 className="font-display text-lg font-semibold tracking-tight">
-                      {education.degree}
-                    </h4>
-                    <span className="text-sm font-medium text-muted">
-                      {education.period}
-                    </span>
-                  </div>
-                  <p className="mt-1.5 text-sm font-medium text-accent-text">
-                    {education.school}
-                  </p>
-                  <div className="mt-4 flex flex-wrap gap-2">
-                    <span className="rounded-lg bg-background px-3 py-1.5 text-sm font-medium text-foreground/80">
-                      {education.gpa}
-                    </span>
-                    <span className="rounded-lg bg-background px-3 py-1.5 text-sm font-medium text-foreground/80">
-                      {education.english}
-                    </span>
-                  </div>
+                <p className="mt-1.5 text-sm font-medium text-accent-text">
+                  {education.school}
+                </p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="rounded-lg bg-background px-3 py-1.5 text-sm font-medium text-foreground/80">
+                    {education.gpa}
+                  </span>
+                  <span className="rounded-lg bg-background px-3 py-1.5 text-sm font-medium text-foreground/80">
+                    {education.english}
+                  </span>
                 </div>
-              </div>
-            </Reveal>
+              </Reveal>
+            </div>
 
             <div>
               <Reveal className="flex items-center gap-2.5">
