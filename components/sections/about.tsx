@@ -37,7 +37,7 @@ export function About() {
           <div className="lg:col-span-7">
             <Reveal delay={0.05}>
               <p className="font-display text-2xl font-medium leading-snug tracking-tight text-balance sm:text-3xl">
-                I turn raw data into decisions — cleaning, querying, and
+                I turn raw data into decisions by cleaning, querying, and
                 visualising it end to end, so the numbers actually get used.
               </p>
             </Reveal>
@@ -45,19 +45,19 @@ export function About() {
               <div className="mt-6 space-y-4 text-base leading-relaxed text-muted text-pretty">
                 <p>
                   I&apos;m an Information Systems student at UIN Syarif
-                  Hidayatullah Jakarta building my career in data — as an analyst
-                  today, and toward data engineering and data management next. My
-                  work is the full arc: pulling messy exports into shape with SQL
-                  and Python, modelling them, and turning the result into
-                  dashboards people can actually act on.
+                  Hidayatullah Jakarta building my career in data. I work as an
+                  analyst today and I&apos;m growing toward data engineering and
+                  data management next. My work covers the full arc: pulling messy
+                  exports into shape with SQL and Python, modelling them, and
+                  turning the result into dashboards people can actually act on.
                 </p>
                 <p>
-                  That comes on top of a full-stack background — I&apos;ve built
-                  web applications with Laravel and Next.js, modeled databases,
-                  and integrated AI and REST APIs — which keeps me comfortable
-                  wherever data meets systems. So I&apos;m equally open to broader
-                  IT roles like system analyst or IT support, and I back it all up
-                  with leadership from running teams and national-scale events.
+                  That builds on a full-stack background. I&apos;ve built web
+                  applications with Laravel and Next.js, modeled databases, and
+                  integrated AI and REST APIs, which keeps me comfortable wherever
+                  data meets systems. So I&apos;m equally open to broader IT roles
+                  like system analyst or IT support, and I back it all up with
+                  leadership from running teams and national-scale events.
                 </p>
               </div>
             </Reveal>

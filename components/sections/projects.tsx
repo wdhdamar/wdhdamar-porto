@@ -59,7 +59,7 @@ export function Projects() {
           index="02"
           eyebrow="Projects"
           title="Selected work"
-          description="Data & analytics work up front, with the development and systems projects behind it — filter by focus, and open any card for the full case study."
+          description="Data & analytics work up front, with the development and systems projects behind it. Filter by focus, and open any card for the full case study."
         />
 
         {/* Filter chips */}

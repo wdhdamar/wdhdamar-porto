@@ -14,7 +14,7 @@ export function Credentials() {
           index="05"
           eyebrow="Credentials"
           title="Education, certifications & publications"
-          description="The academic foundation behind the work — a degree, hands-on certifications, and peer-reviewed research."
+          description="The academic foundation behind the work: a degree, hands-on certifications, and peer-reviewed research."
         />
 
         <div className="mt-14 grid gap-10 lg:grid-cols-2 lg:gap-x-12">

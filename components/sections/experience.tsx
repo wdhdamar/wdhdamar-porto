@@ -98,7 +98,7 @@ export function Experience() {
           index="03"
           eyebrow="Experience"
           title="Where I've worked and led"
-          description="A mix of internships, coaching, community roles, and event leadership — building, publishing, and shipping alongside teams."
+          description="A mix of internships, coaching, community roles, and event leadership, all about building, publishing, and shipping alongside teams."
         />
 
         <div className="mt-14 grid gap-14 lg:grid-cols-2 lg:gap-x-12 lg:gap-y-16">

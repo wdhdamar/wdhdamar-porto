@@ -4,7 +4,7 @@ export const siteConfig = {
   initials: "WD",
   role: "Data & Analytics",
   tagline:
-    "I turn raw data into decisions — cleaning, querying, and visualising it end to end with SQL, Python, and BI tools.",
+    "I turn raw data into decisions, cleaning, querying, and visualising it end to end with SQL, Python, and BI tools.",
   location: "Indonesia",
   email: "wdhdamar@gmail.com",
   availability: "Open to data & analytics roles",
@@ -98,9 +98,9 @@ export const projects: Project[] = [
     slug: "ai-laptop-service",
     title: "AI-Powered Laptop Service Management",
     description:
-      "A full-stack Laravel platform that runs a laptop repair shop end to end — with an LLM assistant that turns plain-language complaints into structured diagnoses.",
+      "A full-stack Laravel platform that runs a laptop repair shop end to end, with an LLM assistant that turns plain-language complaints into structured diagnoses.",
     summary:
-      "A web-based service management system for a laptop repair business, built with Laravel. It digitises the entire repair lifecycle — intake, diagnosis, repair tracking, and handover — and layers in a Groq-powered LLM that reads a customer's plain-language complaint and suggests a likely diagnosis and next steps.",
+      "A web-based service management system for a laptop repair business, built with Laravel. It digitises the entire repair lifecycle, from intake and diagnosis through repair tracking and handover, then layers in a Groq-powered LLM that reads a customer's plain-language complaint and suggests a likely diagnosis and next steps.",
     tags: ["Laravel", "PHP", "MySQL", "Groq LLM", "REST API", "Blade"],
     year: "2026",
     category: "Web Application",
@@ -114,9 +114,9 @@ export const projects: Project[] = [
     role: "Full-stack Developer",
     timeline: "Jun 2026",
     problem:
-      "Small repair shops usually track service tickets on paper or in a spreadsheet — so nothing is searchable, status updates get lost between the front desk and the technician, and every incoming complaint has to be manually interpreted before work can start. The goal was a single system that owns the whole workflow and takes some of the diagnostic guesswork off the technician's plate.",
+      "Small repair shops usually track service tickets on paper or in a spreadsheet, so nothing is searchable, status updates get lost between the front desk and the technician, and every incoming complaint has to be manually interpreted before work can start. The goal was a single system that owns the whole workflow and takes some of the diagnostic guesswork off the technician's plate.",
     approach: [
-      "Built the full service lifecycle in Laravel — customer intake, service tickets, status tracking, and role-based access for admin, technician, and front-desk staff.",
+      "Built the full service lifecycle in Laravel, covering customer intake, service tickets, status tracking, and role-based access for admin, technician, and front-desk staff.",
       "Integrated the Groq LLM API so a customer's free-text complaint is parsed into a structured, suggested diagnosis the technician can review and confirm.",
       "Modelled the database around customers, devices, and service records, and wired it to Blade views for a clean day-to-day operating interface.",
     ],
@@ -131,9 +131,9 @@ export const projects: Project[] = [
     slug: "kms-karate-coaches",
     title: "Knowledge Management System for Karate Coaches",
     description:
-      "My undergraduate thesis — a Laravel platform that captures and shares coaching knowledge across a provincial karate association.",
+      "My undergraduate thesis: a Laravel platform that captures and shares coaching knowledge across a provincial karate association.",
     summary:
-      "A Knowledge Management System built as my final-year thesis for the Goju-Ryu Karate-Do Association of Banten. It gives coaches one place to document, organise, and share training knowledge — techniques, curricula, and experience — so expertise is retained and passed on instead of living only in individual coaches' heads.",
+      "A Knowledge Management System built as my final-year thesis for the Goju-Ryu Karate-Do Association of Banten. It gives coaches one place to document, organise, and share training knowledge such as techniques, curricula, and experience, so expertise is retained and passed on instead of living only in individual coaches' heads.",
     tags: ["Laravel", "PHP", "MySQL", "Bootstrap"],
     year: "2026",
     category: "Web Application",
@@ -144,7 +144,7 @@ export const projects: Project[] = [
     role: "Developer & Researcher (thesis)",
     timeline: "Dec 2025 – Jul 2026",
     problem:
-      "Coaching knowledge in the association was almost entirely tacit — held by senior coaches and shared informally. When a coach moved on, their knowledge left with them, and newer coaches had no central, reliable reference to learn from. The thesis set out to make that knowledge explicit, structured, and reusable.",
+      "Coaching knowledge in the association was almost entirely tacit, held by senior coaches and shared informally. When a coach moved on, their knowledge left with them, and newer coaches had no central, reliable reference to learn from. The thesis set out to make that knowledge explicit, structured, and reusable.",
     approach: [
       "Applied a knowledge-management framework (SECI-style knowledge conversion) to model how coaching knowledge is captured, stored, and shared across the association.",
       "Built the platform in Laravel with role-based access, so coaches can contribute knowledge and members can browse a structured, searchable repository.",
@@ -172,11 +172,11 @@ export const projects: Project[] = [
     timeline: "Aug 2026",
     client: "	Personal project (synthetic dataset)",
     problem:
-      "Retail teams often rely on static monthly export sheets to track performance — making it slow to compare category trends, monitor whether each sales rep is hitting target, or catch spikes in cancelled orders. This project simulates that reporting gap using a synthetic dataset of 2,000 transactions spanning 20 cities and 15 sales reps.",
+      "Retail teams often rely on static monthly export sheets to track performance, which makes it slow to compare category trends, monitor whether each sales rep is hitting target, or catch spikes in cancelled orders. This project simulates that reporting gap using a synthetic dataset of 2,000 transactions spanning 20 cities and 15 sales reps.",
     approach: [
       "Built an interactive Excel dashboard of 6 PivotTables and PivotCharts, all connected through slicers and a timeline.",
       "Processed 2,000 retail transactions into a structured, readable, and analysis-ready view.",
-      "Surfaced monthly revenue trends, sales performance, and top-selling products in a single dashboard — visualising Rp 5.3 billion in total revenue.",
+      "Surfaced monthly revenue trends, sales performance, and top-selling products in a single dashboard that visualises Rp 5.3 billion in total revenue.",
     ],
     outcomes: [
       { value: "Rp 5.3B", label: "Revenue analyzed" },
@@ -193,9 +193,9 @@ export const projects: Project[] = [
     slug: "ecommerce-sql-analysis",
     title: "E-Commerce Sales & Customer Analysis (SQL)",
     description:
-      "A pure-SQL analysis of two years of Indonesian e-commerce data — turning 1,500 orders into revenue, product, and customer insights.",
+      "A pure-SQL analysis of two years of Indonesian e-commerce data, turning 1,500 orders into revenue, product, and customer insights.",
     summary:
-      "A SQL-based data analysis project on Indonesian e-commerce transactions spanning Jan 2023–Dec 2024. Using SQLite, it models customers, products, orders, and order items, then answers real business questions — sales performance, product rankings, customer segmentation, monthly trends, and geographic distribution — using window functions and CTEs.",
+      "A SQL-based data analysis project on Indonesian e-commerce transactions spanning Jan 2023–Dec 2024. Using SQLite, it models customers, products, orders, and order items, then answers real business questions like sales performance, product rankings, customer segmentation, monthly trends, and geographic distribution, all with window functions and CTEs.",
     tags: ["SQL", "SQLite", "Window Functions", "CTEs", "Data Studio"],
     year: "2026",
     category: "Data & Analytics",
@@ -211,7 +211,7 @@ export const projects: Project[] = [
     timeline: "Aug 2026",
     client: "Personal project (synthetic dataset)",
     problem:
-      "E-commerce businesses generate thousands of transaction rows, but raw data alone doesn't answer the questions that matter — which products actually drive revenue, who the repeat customers are, how sales trend month to month, and where cancellations concentrate. Turning that data into decisions requires structured analysis, not just storage. This project simulates that process end-to-end: a synthetic two-year Indonesian e-commerce dataset (1,500 orders, ~2,700 line items across 200 customers and 46 products), analyzed using SQL alone.",
+      "E-commerce businesses generate thousands of transaction rows, but raw data alone doesn't answer the questions that matter: which products actually drive revenue, who the repeat customers are, how sales trend month to month, and where cancellations concentrate. Turning that data into decisions requires structured analysis, not just storage. This project simulates that process end-to-end: a synthetic two-year Indonesian e-commerce dataset (1,500 orders, ~2,700 line items across 200 customers and 46 products), analyzed using SQL alone.",
     approach: [
       "Modeled a normalised four-table schema (customers, products, orders, order_items) and worked with ~2,700 line items across 1,500 orders after cleaning duplicates, nulls, and inconsistent formatting.",
       "Wrote analytical queries for revenue and average order value, product and category rankings, customer segmentation and repeat-purchase detection, and geographic sales by city.",
@@ -230,9 +230,9 @@ export const projects: Project[] = [
     slug: "showroom-sales-analysis",
     title: "Car Showroom Sales Analysis",
     description:
-      "An end-to-end data analysis of a car showroom — from cleaning 10,000 rows in Python to a Power BI dashboard with decision-ready insight.",
+      "An end-to-end data analysis of a car showroom, from cleaning 10,000 rows in Python to a Power BI dashboard with decision-ready insight.",
     summary:
-      "A full data-analysis case study on a car showroom dataset, built during the KarirNex Data Analyst bootcamp. It runs the complete pipeline — cleaning 10,000 raw rows in Python/pandas, querying patterns in SQL, and surfacing the findings in an interactive Power BI dashboard for management.",
+      "A full data-analysis case study on a car showroom dataset, built during the KarirNex Data Analyst bootcamp. It runs the complete pipeline, from cleaning 10,000 raw rows in Python/pandas to querying patterns in SQL and surfacing the findings in an interactive Power BI dashboard for management.",
     tags: ["Python", "pandas", "SQL", "Power BI", "matplotlib"],
     year: "2026",
     category: "Data & Analytics",
@@ -242,11 +242,11 @@ export const projects: Project[] = [
     timeline: "Sep 2026",
     client: "KarirNex Data Analyst Bootcamp",
     problem:
-      "A car showroom sits on 10,000 rows of raw sales data but no clear read on what's driving the business — which branches lean hardest on trade-ins, which products actually sell, or why a spike in cancellations one month quietly drags down sales the next. The case study set out to turn that raw export into decisions management could act on.",
+      "A car showroom sits on 10,000 rows of raw sales data but no clear read on what's driving the business: which branches lean hardest on trade-ins, which products actually sell, or why a spike in cancellations one month quietly drags down sales the next. The case study set out to turn that raw export into decisions management could act on.",
     approach: [
-      "Cleaned a 10,000-row dataset in Python/pandas — handling missing values, duplicates, and inconsistent data types — then charted sales trends with matplotlib.",
+      "Cleaned a 10,000-row dataset in Python/pandas, handling missing values, duplicates, and inconsistent data types, then charted sales trends with matplotlib.",
       "Used Excel PivotTables and SQL queries (aggregation, HAVING, subqueries, CTEs) to surface trade-in patterns, the branches most dependent on trade-ins, and the best-selling products.",
-      "Built an interactive Power BI dashboard (KPI cards, slicers, monthly trends) and framed the insight for management — like the May cancellation/refund spike correlating with June's sales dip.",
+      "Built an interactive Power BI dashboard (KPI cards, slicers, monthly trends) and framed the insight for management, like the May cancellation/refund spike that correlated with June's sales dip.",
     ],
     outcomes: [
       { value: "10,000", label: "Rows cleaned in Python" },
@@ -272,9 +272,9 @@ export const projects: Project[] = [
     role: "Developer",
     timeline: "May 2025",
     problem:
-      "Choosing between options against several competing criteria is hard to do by hand — the weighting and normalisation math is fiddly and easy to get wrong. The goal was an app that makes the SMART decision method approachable: enter the criteria and options, and let the tool handle the calculation transparently.",
+      "Choosing between options against several competing criteria is hard to do by hand, because the weighting and normalisation math is fiddly and easy to get wrong. The goal was an app that makes the SMART decision method approachable: enter the criteria and options, and let the tool handle the calculation transparently.",
     approach: [
-      "Implemented the full SMART pipeline in TypeScript — weight normalisation, min-max normalisation of benefit/cost criteria, and weighted scoring — in a dedicated utility module.",
+      "Implemented the full SMART pipeline in a dedicated TypeScript module, covering weight normalisation, min-max normalisation of benefit/cost criteria, and weighted scoring.",
       "Built focused React components for each step: criteria input, alternative input, and a results view that shows the computed ranking.",
       "Kept the calculation reactive, so the ranking recomputes instantly whenever weights or values change.",
     ],
@@ -305,10 +305,10 @@ export const projects: Project[] = [
     role: "Developer",
     timeline: "Dec 2025",
     problem:
-      "Spatial information about a district — where the boundaries, roads, rivers, and key points sit — is usually scattered across static maps and documents. The aim was a single interactive map that brings those layers together and lets anyone explore them in the browser.",
+      "Spatial information about a district, like where the boundaries, roads, rivers, and key points sit, is usually scattered across static maps and documents. The aim was a single interactive map that brings those layers together and lets anyone explore them in the browser.",
     approach: [
       "Built an interactive map with Leaflet.js, layering administrative boundaries, roads, rivers, and halal points of interest as toggleable, grouped overlays.",
-      "Wired in multiple basemaps (Google Satellite/Roads, Esri, OpenStreetMap) plus map controls — geocoder search, geolocation, and a minimap.",
+      "Wired in multiple basemaps (Google Satellite/Roads, Esri, OpenStreetMap) plus map controls like geocoder search, geolocation, and a minimap.",
       "Served it through a CodeIgniter backend with an AdminLTE-based interface for managing the underlying spatial data.",
     ],
     outcomes: [
@@ -370,10 +370,10 @@ export const experience: ExperienceItem[] = [
     period: "Mar 2025 — Apr 2025",
     location: "Internship",
     description:
-      "Planned and produced social media content for the clinic across Instagram and TikTok — from visuals to short-form video.",
+      "Planned and produced social media content for the clinic across Instagram and TikTok, from visuals to short-form video.",
     achievements: [
       "Grew the clinic's Instagram engagement by 300%+ through a focused content and visual strategy.",
-      "Designed print promo materials — flyers, brochures, and banners — alongside the digital content.",
+      "Designed print promo materials like flyers, brochures, and banners alongside the digital content.",
     ],
   },
   {
@@ -409,7 +409,7 @@ export const organizationalExperience: ExperienceItem[] = [
     period: "Jun 2024 — Apr 2025",
     location: "Division Head",
     description:
-      "Led the Education & Research division — setting the agenda, delegating to staff, and steering programs through to completion.",
+      "Led the Education & Research division, setting the agenda, delegating to staff, and steering programs through to completion.",
     achievements: [
       "Designed and delivered 5 division work programs, all reaching 100%+ of their targets.",
       "Guided staff through execution with regular coordination, consultation, and problem-solving.",
@@ -435,7 +435,7 @@ export const organizationalExperience: ExperienceItem[] = [
     description:
       "Handled communications and documentation for the provincial karate association, keeping members informed and activities well-archived.",
     achievements: [
-      "Delivered 14+ strategic updates on championships and belt exams to members — all on time.",
+      "Delivered 14+ strategic updates on championships and belt exams to members, all on time.",
       "Documented 10 organizational events to support the association's archive and publications.",
     ],
   },
@@ -448,9 +448,9 @@ export const leadershipExperience: ExperienceItem[] = [
     period: "Jan 2025 — Feb 2025",
     location: "Team of 26 · 508 attendees",
     description:
-      "Led end-to-end delivery of a national webinar — from committee structure and cross-division coordination to execution and evaluation.",
+      "Led end-to-end delivery of a national webinar, from committee structure and cross-division coordination to execution and evaluation.",
     achievements: [
-      "Drew 508 attendees across Zoom and YouTube Live — 2.4× the initial 210 target.",
+      "Drew 508 attendees across Zoom and YouTube Live, 2.4× the initial 210 target.",
       "Resolved a last-minute speaker issue to keep the event on schedule, and secured coverage on UIN Jakarta's official media.",
     ],
   },

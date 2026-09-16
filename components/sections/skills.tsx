@@ -30,7 +30,7 @@ export function Skills() {
           index="04"
           eyebrow="Skills"
           title="Tools & technologies"
-          description="The stack I build with day to day — spanning web development, data, and the analysis and leadership that hold a project together."
+          description="The stack I work with day to day, spanning data and analytics, web development, and the analysis and leadership that hold a project together."
         />
 
         <motion.div

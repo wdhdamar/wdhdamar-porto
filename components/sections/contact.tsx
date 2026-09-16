@@ -31,7 +31,7 @@ export function Contact() {
               </h2>
               <p className="mx-auto mt-5 max-w-lg text-base leading-relaxed text-muted text-pretty">
                 I&apos;m currently {siteConfig.availability.toLowerCase()}.
-                Whether you have a role, a project, or just a question — my inbox
+                Whether you have a role, a project, or just a question, my inbox
                 is always open.
               </p>
 
