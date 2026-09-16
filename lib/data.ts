@@ -20,6 +20,7 @@ export const navLinks = [
   { label: "Projects", href: "#projects" },
   { label: "Experience", href: "#experience" },
   { label: "Skills", href: "#skills" },
+  { label: "Credentials", href: "#credentials" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -225,6 +226,34 @@ export const projects: Project[] = [
     gallery: [
       { caption: "Sales & customer analysis dashboard", aspect: "wide", src: "/projects/ecommerce_analysis_dashboard.jpg" },
     ],
+  },
+  {
+    slug: "showroom-sales-analysis",
+    title: "Car Showroom Sales Analysis",
+    description:
+      "An end-to-end data analysis of a car showroom — from cleaning 10,000 rows in Python to a Power BI dashboard with decision-ready insight.",
+    summary:
+      "A full data-analysis case study on a car showroom dataset, built during the KarirNex Data Analyst bootcamp. It runs the complete pipeline — cleaning 10,000 raw rows in Python/pandas, querying patterns in SQL, and surfacing the findings in an interactive Power BI dashboard for management.",
+    tags: ["Python", "pandas", "SQL", "Power BI", "matplotlib"],
+    year: "2026",
+    category: "Data & Analytics",
+    type: "data",
+    role: "Data Analyst (bootcamp case study)",
+    timeline: "Sep 2026",
+    client: "KarirNex Data Analyst Bootcamp",
+    problem:
+      "A car showroom sits on 10,000 rows of raw sales data but no clear read on what's driving the business — which branches lean hardest on trade-ins, which products actually sell, or why a spike in cancellations one month quietly drags down sales the next. The case study set out to turn that raw export into decisions management could act on.",
+    approach: [
+      "Cleaned a 10,000-row dataset in Python/pandas — handling missing values, duplicates, and inconsistent data types — then charted sales trends with matplotlib.",
+      "Used Excel PivotTables and SQL queries (aggregation, HAVING, subqueries, CTEs) to surface trade-in patterns, the branches most dependent on trade-ins, and the best-selling products.",
+      "Built an interactive Power BI dashboard (KPI cards, slicers, monthly trends) and framed the insight for management — like the May cancellation/refund spike correlating with June's sales dip.",
+    ],
+    outcomes: [
+      { value: "10,000", label: "Rows cleaned in Python" },
+      { value: "End-to-end", label: "Excel · SQL · Python · BI" },
+      { value: "Cause → effect", label: "Cancellations to sales dip" },
+    ],
+    gallery: [{ caption: "Power BI sales dashboard", aspect: "wide" }],
   },
   {
     slug: "spk-smart-method",
@@ -454,6 +483,7 @@ export const skillGroups: SkillGroup[] = [
       "TypeScript",
       "React",
       "Next.js",
+      "Python",
     ],
   },
   {
@@ -469,10 +499,21 @@ export const skillGroups: SkillGroup[] = [
   {
     category: "Databases & Data",
     skills: [
+      "SQL (Joins, Window Functions, CTE)",
       "MySQL",
-      "SQL",
+      "SQLite",
+      "pandas",
+      "Data Cleaning",
+    ],
+  },
+  {
+    category: "Data Viz & BI",
+    skills: [
+      "Power BI",
+      "Looker Studio",
       "Excel (PivotTables & Power Query)",
-      "Data Analysis",
+      "matplotlib",
+      "KPI Dashboards",
     ],
   },
   {
@@ -491,5 +532,66 @@ export const skillGroups: SkillGroup[] = [
       "Software Testing",
       "Team Leadership",
     ],
+  },
+];
+
+export type Education = {
+  degree: string;
+  school: string;
+  period: string;
+  gpa: string;
+  english: string;
+};
+
+export const education: Education = {
+  degree: "B.Sc. in Information Systems",
+  school: "UIN Syarif Hidayatullah Jakarta",
+  period: "2022 – 2026",
+  gpa: "GPA 3.67 / 4.00",
+  english: "TOEFL 537",
+};
+
+export type Certification = {
+  name: string;
+  issuer: string;
+  period: string;
+  note?: string;
+};
+
+export const certifications: Certification[] = [
+  {
+    name: "Data Analyst Bootcamp",
+    issuer: "KarirNex — PT Ebiz Karisma Internasional",
+    period: "Sep 2026",
+    note: "Completed with “Expert” distinction",
+  },
+  {
+    name: "Python Essentials 1 & 2",
+    issuer: "Cisco Networking Academy · Python Institute",
+    period: "Nov – Dec 2025",
+  },
+];
+
+export type Publication = {
+  title: string;
+  venue: string;
+  year: string;
+  doi: string;
+};
+
+export const publications: Publication[] = [
+  {
+    title:
+      "Anticipating Knowledge Management Future Challenges in the Digital Age: A Systematic Literature Review",
+    venue: "Jurnal Sistem Informasi dan Telematika",
+    year: "2025",
+    doi: "https://doi.org/10.36448/jsit.v15i2.4059",
+  },
+  {
+    title:
+      "Analisis Usability Pada Aplikasi Mobile Banking BCA Menggunakan System Usability Scale (SUS)",
+    venue: "Jurnal Perangkat Lunak",
+    year: "2024",
+    doi: "https://doi.org/10.32520/jupel.v6i2.3285",
   },
 ];

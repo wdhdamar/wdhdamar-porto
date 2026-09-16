@@ -18,7 +18,7 @@ export function Contact() {
             <div className="relative mx-auto max-w-2xl text-center">
               <div className="flex items-center justify-center gap-3">
                 <span className="font-display text-sm font-bold tabular-nums text-accent-text">
-                  05
+                  06
                 </span>
                 <span className="h-px w-10 bg-accent" aria-hidden />
                 <span className="text-xs font-bold uppercase tracking-[0.22em] text-foreground/80">
