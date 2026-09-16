@@ -348,7 +348,7 @@ export const experience: ExperienceItem[] = [
     description:
       "Designed and led the school's karate program, coaching 40+ students each year in technique, discipline, and competition readiness.",
     achievements: [
-      "Built each year's syllabus and training plan from scratch, tailored to grade levels 3–5.",
+      "Designed each year's syllabus and training plan from scratch in Google Workspace (Docs & Sheets), tailored to grade levels 3–5.",
       "Scouted and mentored standout students, producing 3+ competition medalists every year.",
     ],
   },
@@ -358,10 +358,10 @@ export const experience: ExperienceItem[] = [
     period: "Apr 2025 — Aug 2025",
     location: "Internship",
     description:
-      "Managed and published content on the institution's public-information website, supporting its public-transparency (monev) reporting.",
+      "Built and published content on the institution's public-information website using HTML, CSS, and Bootstrap, supporting its public-transparency (monev) reporting.",
     achievements: [
       "Contributed to content management that helped UIN Jakarta earn an “Informative” rating in the public information disclosure assessment.",
-      "Benchmarked the site against other universities and refined content layout for a cleaner user experience.",
+      "Benchmarked the site against other universities and refined its content layout with HTML, CSS, and Bootstrap for a cleaner user experience.",
     ],
   },
   {
@@ -373,18 +373,18 @@ export const experience: ExperienceItem[] = [
       "Planned and produced social media content for the clinic across Instagram and TikTok, from visuals to short-form video.",
     achievements: [
       "Grew the clinic's Instagram engagement by 300%+ through a focused content and visual strategy.",
-      "Designed print promo materials like flyers, brochures, and banners alongside the digital content.",
+      "Produced 20+ digital and print promotional materials (flyers, brochures, banners) using Canva, Figma, CapCut, and Adobe Premiere Pro.",
     ],
   },
   {
     role: "Editorial & Publishing Intern",
     company: "Public Information & PR Center, UIN Jakarta",
-    period: "Dec 2024 — Mar 2025",
+    period: "Dec 2024 — Apr 2025",
     location: "Internship",
     description:
-      "Published the newsroom team's journalism, photography, and design work to the institution's website, keeping content timely and on-standard.",
+      "Published the newsroom team's journalism, photography, and design work to the institution's website using HTML, CSS, and Bootstrap, keeping content timely and on-standard.",
     achievements: [
-      "Restructured the site's photo galleries so event documentation was easier to browse and access.",
+      "Rebuilt the site's photo galleries so event documentation displayed inline while scrolling instead of redirecting to Google Drive, making it far easier to browse.",
       "Coordinated with the editorial team to keep publishing and layout updates on schedule.",
     ],
   },
