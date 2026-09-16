@@ -200,7 +200,6 @@ export const projects: Project[] = [
     year: "2026",
     category: "Data & Analytics",
     type: "data",
-    featured: true,
     links: [
       {
         type: "dashboard",
@@ -238,6 +237,7 @@ export const projects: Project[] = [
     year: "2026",
     category: "Data & Analytics",
     type: "data",
+    featured: true,
     role: "Data Analyst (bootcamp case study)",
     timeline: "Sep 2026",
     client: "KarirNex Data Analyst Bootcamp",
